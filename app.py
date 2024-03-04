@@ -24,7 +24,7 @@ task = st.sidebar.radio("Select Task:", ("Parts Of Speech Tagging", "Named Entit
 if st.button("Perform Task"):
     if task == "Parts Of Speech Tagging":
         pos_tags = pos_tagging(input_text)
-        st.header("POS Tagging Results")
+        st.header("Parts Of Speech Tagging Results")
         st.table(pos_tags)
     else:
         entities = named_entity_recognition(input_text)
