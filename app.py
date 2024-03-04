@@ -22,7 +22,7 @@ input_text = st.text_area("Enter your text :")
 task = st.sidebar.radio("Select Task:", ("Parts Of Speech Tagging", "Named Entity Recognition"))
 
 if st.button("Perform Task"):
-    if task == "POS Tagging":
+    if task == "Parts Of Speech Tagging":
         pos_tags = pos_tagging(input_text)
         st.header("POS Tagging Results")
         st.table(pos_tags)
