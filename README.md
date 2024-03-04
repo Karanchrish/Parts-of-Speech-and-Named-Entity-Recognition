@@ -1,2 +1,3 @@
 # Parts-of-Speech-and-Named-Entity-Recognition
-This model Parts of Speech and Named Entity Recognition Tool
+## Link :
+  https://parts-of-speech-and-named-entity-recognition.streamlit.app/
